@@ -2,7 +2,15 @@
     "name": "draab/club-administrator",
     "type": "project",
     "description": "Club Administrator",
-    "keywords": ["framework", "laravel", "club", "manager", "admin", "administrator", "scheduler"],
+    "keywords": [
+        "framework",
+        "laravel",
+        "club",
+        "manager",
+        "admin",
+        "administrator",
+        "scheduler"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.1",
@@ -77,8 +85,11 @@
     "prefer-stable": true,
     "repositories": {
         "webpush-channel": {
-            "type": "git",
-            "url": "https://gitlab.com/draab_public/laravel/web-push-channel.git"
+            "type": "path",
+            "url": "/tmp/webpush-stub",
+            "options": {
+                "symlink": false
+            }
         }
     }
 }
