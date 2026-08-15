@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 ## Unpublished
+### Changed
+- Upgraded Laravel framework from v11 to v12 (v12.66.0)
+- Updated PHP requirement to ^8.2
+- Updated composer dependencies: laravel/sanctum v4.3.3, livewire/livewire v3.8.4, sentry/sentry-laravel 4.27.0, spatie/laravel-backup 9.4.1, guzzlehttp/guzzle 7.15.3, phpunit/phpunit 11.5.56 and many more
+- Updated npm dev dependencies: alpinejs, @alpinejs/sort, @tailwindcss/forms, autoprefixer, axios, postcss within current major versions
+- Updated package-lock.json
 
 ## v0.9.0 - 2026-05-05
 ### Added
